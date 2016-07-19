@@ -12,7 +12,7 @@
     ],
 	"headers": [
 		{
-		  	"source" : "**/assets/**",
+		  	"source" : "**/img/*.webp",
 		  	"headers" : [ {
 			  	"key" : "Cache-Control",
 			  	"value" : "max-age=720000"
