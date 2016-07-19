@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagicalLab</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body data-spy="scroll" data-target="#navcol-1">
+    <div id="fb_root"></div>
+    <nav class="navbar navbar-default navbar-fixed-top collapse navbar-collapse">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Magical Lab<i class="glyphicon glyphicon-star-empty"></i></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li role="presentation"><a href="#home" class="smooth-scroll">Главная</a></li>
+                    <li role="presentation"><a href="#services" class="smooth-scroll">Услуги </a></li>
+                    <li role="presentation"><a href="#examples" class="smooth-scroll">Примеры работ</a></li>
+                    <li role="presentation"><a href="#features" class="smooth-scroll">Почему мы?</a></li>
+                    <li role="presentation"><a href="#reviews" class="smooth-scroll">Отзывы </a></li>
+                    <li role="presentation"><a href="#contacts" class="smooth-scroll">Контакты </a></li>
+                    <li role="presentation" id="gallery-link"><a target="_blank">Галлерея </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron hero" id="home">
+        <div class="container">
+            <h1 class="text-center neon-text get-it vertical-center" id="main-title">Magical Lab</h1>
+            <div class="row">
+                <div class="col-md-8 get-it">
+                    <div class="well shadow">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_sCJ6z61Yag"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 phone-preview">
+                    <div class="well get-it shadow"><span>Оставьте заявку прямо сейчас, и через день получите обработанные фотографии</span>
+                        <form method="post" id="submit-request">
+                            <div class="form-group">
+                                <input class="form-control" type="text" required="" placeholder="Представьтесь" minlength="3" autocomplete="on" name="username">
+                                <input class="form-control" type="tel" required="" placeholder="Ваш телефон" autocomplete="on" name="tel">
+                                <input class="form-control" type="email" required="" placeholder="Email" autocomplete="on" name="email">
+                                <textarea class="form-control" rows="5" wrap="hard" spellcheck="true" placeholder="Комметарий" autocomplete="on" name="description"></textarea>
+                            </div>
+                            <button class="btn btn-primary btn-block" type="submit" id="submit-request-btn">Отправить </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <p class="lead text-left"><strong>MagicalLab</strong> - профессиональная <strong>Photoshop</strong> студия. Мы готовы справиться с любой поставленной задачей. </p>
+            <p class="lead">Сегодня провести современную профессиональную фотосессию, добиться эффекта "<strong>девушка с обложки</strong>" - это не только результат новых технологий и программ - это настоящее искусство на границе творчества и последних достижений дизайна.</p>
+            <p
+            class="lead">И мы используем все эти возможности для исполнения Ваших желаний. Изменить переписку , место, фигуру, людей, места, - нам под силу всё, чего бы не пожелала Ваша фантазия. </p>
+                <p class="lead">Мы верим в Вашу уникальность, в уникальность Ваших желаний, и потому каждый заказ оценивается и согласуется исключительно индивидуально.&nbsp; </p>
+        </div>
+    </section>
+    <section id="services" class="features blur">
+        <h1 class="text-center title"> <strong>Услуги по обработке</strong></h1>
+        <div class="container features">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow">
+                        <h3 class="text-center">Ретушь </h3></div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow">
+                        <h3 class="text-center">Цветокоррекция </h3></div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow">
+                        <h3 class="text-center">Фотомонтаж </h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow">
+                        <h3 class="text-center">Конвертация RAW</h3></div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow">
+                        <h3 class="text-center">Реставрация </h3></div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow">
+                        <h3 class="text-center">Другое... </h3></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="examples">
+        <h1 class="text-center title"><strong>Примеры работ </strong></h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="well shadow">
+                        <div class="caption"></div>
+                        <h3>Ретушь </h3>
+                        <p>Устранение ненужных деталей изображения, шумов, изменение композиции. Часто к ретуши приходится прибегать для того, чтобы убрать дефекты кожи, пыль на одежде модели. <a href="https://ru.wikipedia.org/wiki/Редактирование_изображений#.D0.A0.D0.B5.D1.82.D1.83.D1.88.D1.8C"
+                            target="_blank">wiki </a></p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 text-right"><img class="img-responsive shadow hoverable-image img-thumbnail" src="assets/img/7.jpg"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 text-left"><img class="img-responsive shadow hoverable-image img-thumbnail" src="assets/img/2.jpg"></div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="well shadow">
+                        <h3>Коррекция фигуры </h3>
+                        <p>Многие люди не довольны в полной мере своей фигурой, кто-то считает, что ему нужно похудеть, кому то хочется нарастить мышцы, а кто-то мечтает о большой груди.&nbsp; </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="well shadow">
+                        <h3>Фотомонтаж </h3>
+                        <p>Процесс и результат создания изображений, составленных из частей различных фотографий. Фотомонтаж широко применяется при изготовлении&nbsp;плакатовб реклам и&nbsp;т.&nbsp;д. По сути фотомонтаж — это вырезание каких-либо объектов
+                            на фотографии и соединение (совмещение) их с другой фотографией. <a href="https://ru.wikipedia.org/wiki/Фотомонтаж" target="_blank">wiki </a></p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 text-right"><img class="img-responsive shadow hoverable-image img-thumbnail" src="assets/img/8.jpg"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 text-left"><img class="img-responsive shadow hoverable-image img-thumbnail" src="assets/img/6.jpg"></div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="well shadow">
+                        <h3>Цветокоррекция </h3>
+                        <p>Это принцип изменения цветового баланса изображения для достижения желаемого эффекта. <a href="http://gamedev.orenlinux.ru/Цветокоррекция">wiki </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <button class="btn btn-default btn-lg" type="button" id="more-btn">Больше работ!</button>
+        </div>
+        <div class="hidden text-center"><a class="btn btn-primary" data-toggle="collapse" aria-expanded="true" aria-controls="collapse-1" role="button" href="#collapse-1">Больше примеров...</a>
+            <div class="collapse in" id="collapse-1">
+                <div class="container">
+                    <div class="well text-left shadow" id="links"><img src="assets/img/1.jpg" class="preshow-icon"><img src="assets/img/2.jpg" class="preshow-icon"><img src="assets/img/3.jpg" class="preshow-icon"><img src="assets/img/5.jpg" class="preshow-icon"><img src="assets/img/6.jpg" class="preshow-icon">
+                        <img
+                        src="assets/img/7.jpg" class="preshow-icon"><img src="assets/img/0.jpg" class="preshow-icon"><img src="assets/img/4.jpg" class="preshow-icon"><img src="assets/img/8.jpg" class="preshow-icon"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="features blur">
+        <h1 class="text-center title"><strong>Почему именно мы? </strong></h1>
+        <div class="container features">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow"><i class="glyphicon glyphicon-headphones"></i>
+                        <p>Клиетская служба 24/7</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow"><i class="glyphicon glyphicon-time"></i>
+                        <p>Срок исполнения - 24 часа</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow"><i class="glyphicon glyphicon-queen"></i>
+                        <p>5 лет на рынке</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow"><i class="glyphicon glyphicon-piggy-bank"></i>
+                        <p>Лучшие цены скидки на услуги</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow"><i class="glyphicon glyphicon-heart-empty"></i>
+                        <p>Каждому - свой подход!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 icon-feature">
+                    <div class="well neon-text shadow"><i class="glyphicon glyphicon-lock"></i>
+                        <p>Конфиденциально </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <h1 class="text-center hidden title"> <strong>Отзывы </strong></h1>
+        <div class="container hidden">
+            <div class="well shadow">
+                <div class="form-group">
+                    <form method="get">
+                        <blockquote>
+                            <p>Радостный отзыв </p>
+                            <footer>автор </footer>
+                        </blockquote>
+                        <blockquote>
+                            <p>Еще радостный отзыв </p>
+                            <footer>автор </footer>
+                        </blockquote>
+                        <blockquote>
+                            <p>Сдержанный отзыв </p>
+                            <footer>автор </footer>
+                        </blockquote>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="well shadow">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div id="vk_like" class="soc_like"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="fb-like soc_like" data-href="https://magical-lab.ru/" data-layout="button_count" data-share="true" data-action="like" data-show-faces="true"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="blur features">
+        <h1 class="text-center title"> <strong>Контакты </strong></h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="well shadow">
+                        <h3>Телефон </h3>
+                        <p>+79096480628 </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="well shadow">
+                        <h3>Email </h3>
+                        <p>magicallab@bk.ru </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="well shadow">
+                        <h3>WhatsApp/Vibber </h3>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5><a href="https://vk.com/away.php?to=http%3A%2F%2FMagical-lab.ru" target="_blank">Magical-lab</a> © 2016</h5></div>
+                <div class="col-sm-6 social-icons"><a class="hidden" href="#" target="_blank"><i class="fa fa-facebook"></i></a><a class="hidden" href="#"><i class="fa fa-twitter"></i></a><a class="hidden" href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="submit-request-success">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="text-center modal-title">Спасибо за заявку!</h4></div>
+                <div class="modal-body">
+                    <p class="text-center">В ближайшее время мы свяжемся с Вами</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="submit-request-failure">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-danger">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="text-center modal-title">Что-то пошло не так...</h4></div>
+                <div class="modal-body">
+                    <p class="text-center">Попробуйте перезагрузить страницу или зайти позже</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="popup-image-modal">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Modal Title</h4></div>
+                <div class="modal-body text-center"><img src="PCyegBV-S_8.jpg" id="popup-image" class="hoverable-image"></div>
+                <div class="modal-footer">
+                    <nav>
+                        <ul class="pager">
+                            <li class="previous"><a>Older</a></li>
+                            <li class="next"><a>Newer</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="popup-carousel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="carousel slide" data-ride="carousel" id="carousel-1">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item"><img src="assets/img/10.jpg" alt="Slide Image" class="hoverable-image carousel-image"></div>
+                            <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/2.jpg" alt="Slide Image"></div>
+                            <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/3.jpg" alt="Slide Image"></div>
+                            <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/4.jpg" alt="Slide Image"></div>
+                            <div class="item active"><img class="img-responsive hoverable-image carousel-image" src="assets/img/6.jpg" alt="Slide Image"></div>
+                            <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/7.jpg" alt="Slide Image"></div>
+                            <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/8.jpg" alt="Slide Image"></div>
+                            <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/9.jpg" alt="Slide Image"></div>
+                        </div>
+                        <div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-1" role="button"
+                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-1" data-slide-to="0"></li>
+                            <li data-target="#carousel-1" data-slide-to="1"></li>
+                            <li data-target="#carousel-1" data-slide-to="2"></li>
+                            <li data-target="#carousel-1" data-slide-to="3"></li>
+                            <li data-target="#carousel-1" data-slide-to="4" class="active"></li>
+                            <li data-target="#carousel-1" data-slide-to="5"></li>
+                            <li data-target="#carousel-1" data-slide-to="6"></li>
+                            <li data-target="#carousel-1" data-slide-to="7"></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="modal-footer hidden">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/firebase.js"></script>
+    <script src="assets/js/openapi.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

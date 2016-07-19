@@ -1,0 +1,212 @@
+.navbar{
+  margin-bottom:0;
+  border:none;
+}
+
+.navbar-brand .glyphicon{
+  margin-right:6px;
+}
+
+.hero{
+  background:url(../../assets/img/0075.jpg) no-repeat top fixed;
+  background-size:cover;
+  border:none;
+  height:100%;
+  width:100%;
+  display:table;
+  margin-bottom:0;
+}
+
+@media (min-width:992px) {
+  .hero .get-it{
+    text-align:center;
+    margin-top:80px;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .get-it{
+    text-align:center;
+  }
+}
+
+.hero .get-it h1, .hero .get-it p{
+  color:#fff;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:40px;
+}
+
+.icon-feature{
+  text-align:center;
+}
+
+.icon-feature .glyphicon{
+  font-size:60px;
+}
+
+.features h2{
+  color:#fff;
+}
+
+.features .icon-features{
+  margin-top:15px;
+}
+
+.testimonials blockquote{
+  text-align:center;
+}
+
+section.testimonials{
+  margin:50px 0;
+}
+
+.site-footer{
+  padding:20px 0;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .site-footer h5{
+    text-align:left;
+  }
+}
+
+.site-footer h5{
+  color:inherit;
+  font-size:20px;
+}
+
+.site-footer .social-icons a:hover{
+  opacity:1;
+}
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons{
+    text-align:right;
+  }
+}
+
+section{
+  padding:40px 0;
+}
+
+.example-image{
+  position:absolute;
+  width:100%;
+}
+
+.example-image-hover{
+  opacity:0;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+
+.example-image-hover{
+  opacity:1;
+}
+
+.example-image-hover:hover{
+  opacity:0;
+}
+
+section#examples{
+  position:relative;
+  background:url(../../assets/img/powerball.jpg) no-repeat center fixed;
+  background-size:cover;
+  border:none;
+}
+
+section#reviews{
+  position:relative;
+  background:url(../../assets/img/6526801.jpg) no-repeat center fixed;
+  background-size:cover;
+}
+
+section.featuresfirst-child{
+}
+
+section.features:firstchild{
+  opacity:0.99;
+}
+
+section.features{
+  background-color:#375a7f;
+  padding:40px 0;
+  color:#fff;
+}
+
+#main-title{
+  font-size:65pt;
+  font-family:'Shadows Into Light';
+}
+
+body, html{
+  position:relative;
+  width:100%;
+  height:100%;
+}
+
+.soc_like{
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+div.container{
+  padding-bottom:30px;
+}
+
+.shadow{
+  box-shadow:10px 10px 10px rgb(0, 0, 0);
+}
+
+.title{
+  font-size:40pt;
+}
+
+.neon-text{
+  text-shadow:0 0 0.1em #1f86e6, 0 0 0.1em #1f86e6, 0 0 0.1em #1f86e6;
+  transition-duration:1s;
+}
+
+.neon-text:hover{
+  text-shadow:0px 0 1em #1f86e6, 0 0 1em #1f86e6, 0 0 1em #1f86e6;
+  transition-duration:1s;
+}
+
+.blink-neon-text{
+}
+
+img.preshow-icon{
+}
+
+.carousel-image{
+  max-width:100%;
+  max-height:50em;
+  margin:0 auto;
+}
+
+#popup-image{
+  max-width:100%;
+  max-height:50em;
+}
+
+#popup-image{
+  max-height:1024px;
+}
+

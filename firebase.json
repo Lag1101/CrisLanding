@@ -1,0 +1,23 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+	"headers": [
+		{
+		  	"source" : "**/assets/**",
+		  	"headers" : [ {
+			  	"key" : "Cache-Control",
+			  	"value" : "max-age=720000"
+	  		} ]
+	  	}
+	]
+  }
+}
