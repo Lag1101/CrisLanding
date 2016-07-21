@@ -1,3 +1,8 @@
+.thumbnail-carousel-indicators{
+  width: 50px;
+
+}
+
 .navbar{
   margin-bottom:0;
   border:none;
@@ -138,13 +143,6 @@ section#reviews{
   background-size:cover;
 }
 
-section.featuresfirst-child{
-}
-
-section.features:firstchild{
-  opacity:0.99;
-}
-
 section.features{
   background-color:#375a7f;
   padding:40px 0;
@@ -153,7 +151,7 @@ section.features{
 
 #main-title{
   font-size:65pt;
-  font-family:'Shadows Into Light';
+  font-family: 'Shadows Into Light', serif;
 }
 
 body, html{
@@ -185,7 +183,7 @@ div.container{
 }
 
 .neon-text:hover{
-  text-shadow:0px 0 1em #1f86e6, 0 0 1em #1f86e6, 0 0 1em #1f86e6;
+  text-shadow:0 0 1em #1f86e6, 0 0 1em #1f86e6, 0 0 1em #1f86e6;
   transition-duration:1s;
 }
 

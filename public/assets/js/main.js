@@ -3,8 +3,7 @@
 
     const modalSuccess = $("#submit-request-success");
     const modalFailure = $("#submit-request-failure");
-    const modalImage = $("#popup-image-modal");
-    const popupCarousel = $("#popup-carousel");
+    const popupCarousel = $('#popup-carousel');
     
     function showCarousel(){
         popupCarousel.modal("show");
@@ -40,14 +39,6 @@
         var ext = tmp[tmp.length-1];
         
         imageEl.attr("src", base + '.' + ext);
-    });
-    
-    $(".preshow-icon").click(function(){
-        var imageEl = $(this);
-        var src = imageEl.attr("src");
-        popupImage.attr('src', src);
-        modalImage.modal("show");
-        imageEl.attr('src', src);
     });
 
     $( "#submit-request" ).submit(function( event ) {

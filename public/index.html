@@ -294,24 +294,6 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="popup-image-modal">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                    <h4 class="modal-title">Modal Title</h4></div>
-                <div class="modal-body text-center"><img src="PCyegBV-S_8.jpg" id="popup-image" class="hoverable-image"></div>
-                <div class="modal-footer">
-                    <nav>
-                        <ul class="pager">
-                            <li class="previous"><a>Older</a></li>
-                            <li class="next"><a>Newer</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="modal fade" role="dialog" tabindex="-1" id="popup-carousel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -321,7 +303,7 @@
                 <div class="modal-body">
                     <div class="carousel slide" data-ride="carousel" id="carousel-1">
                         <div class="carousel-inner" role="listbox">
-                            <div class="item"><img src="assets/img/prod/10.webp" alt="Slide Image" class="hoverable-image carousel-image"></div>
+                            <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/prod/10.webp" alt="Slide Image" ></div>
                             <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/prod/2.webp" alt="Slide Image"></div>
                             <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/prod/3.webp" alt="Slide Image"></div>
                             <div class="item"><img class="img-responsive hoverable-image carousel-image" src="assets/img/prod/4.webp" alt="Slide Image"></div>
@@ -351,11 +333,40 @@
             </div>
         </div>
     </div>
-    <script defer src="assets/js/jquery.min.js"></script>
+    <script defer src="assets/js/jquery-3.1.0.min.js"></script>
     <script defer src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script defer src="assets/js/firebase.js"></script>
     <script defer src="assets/js/prod/openapi.js"></script>
     <script defer src="assets/js/prod/main.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter38576210 = new Ya.Metrika({
+                        id:38576210,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/38576210" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
 
 </html>
