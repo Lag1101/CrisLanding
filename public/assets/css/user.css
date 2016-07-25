@@ -13,7 +13,7 @@
 }
 
 .hero{
-  background:url(../../assets/img/0075.jpg) no-repeat top fixed;
+  background:url(../../assets/img/prod/0075.webp) no-repeat top fixed;
   background-size:cover;
   border:none;
   height:100%;
@@ -132,14 +132,14 @@ section{
 
 section#examples{
   position:relative;
-  background:url(../../assets/img/powerball.jpg) no-repeat center fixed;
+  background:url(../../assets/img/prod/powerball.webp) no-repeat center fixed;
   background-size:cover;
   border:none;
 }
 
 section#reviews{
   position:relative;
-  background:url(../../assets/img/6526801.jpg) no-repeat center fixed;
+  background:url(../../assets/img/prod/6526801.webp) no-repeat center fixed;
   background-size:cover;
 }
 
