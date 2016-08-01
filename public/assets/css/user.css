@@ -41,12 +41,19 @@
   margin-bottom:40px;
 }
 
+
+
 .icon-feature{
   text-align:center;
 }
 
 .icon-feature .glyphicon{
   font-size:60px;
+}
+
+.icon-ruble .glyphicon{
+  font-size:128px;
+  margin-top: 80px;
 }
 
 .features h2{
