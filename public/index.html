@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="assets/css/user.css">
 </head>
 
-<body data-spy="scroll" data-target="#navcol-1">
+<body data-spy="scroll" data-target="#scrollspy-nav">
     <div id="fb_root"></div>
-    <nav class="navbar navbar-default navbar-fixed-top collapse navbar-collapse">
+    <nav id="scrollspy-nav" class="navbar navbar-default navbar-fixed-top collapse navbar-collapse">
         <div class="container-fluid">
             <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Magical Lab<i class="glyphicon glyphicon-star-empty"></i></a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
@@ -58,7 +58,7 @@
             </div>
         </div>
     </div>
-    <section>
+    <section id="decription">
         <div class="container">
             <p class="lead text-left"><strong>MagicalLab</strong> - профессиональная <strong>Photoshop</strong> студия. Мы готовы справиться с любой поставленной задачей. </p>
             <p class="lead">Сегодня провести современную профессиональную фотосессию, добиться эффекта "<strong>девушка с обложки</strong>" - это не только результат новых технологий и программ - это настоящее искусство на границе творчества и последних достижений дизайна.</p>
@@ -72,18 +72,36 @@
         <div class="container">
             <h1 class="text-center title"> <strong>Услуги и цены</strong></h1>
             <div class="row">
-                <div class="col-md-offset-0 col-md-7 icon-feature icon-ruble vertical-center">
-                    <i class="glyphicon glyphicon-usd"></i>
-                </div>
-                <div class="col-md-offset-0 col-md-5">
-                    <ul class="list-group">
-                        <li class="list-item"><p class="lead">Ретушь 200 р</p></li>
-                        <li class="list-item"><p class="lead">Фотомонтаж 700</p></li>
-                        <li class="list-item"><p class="lead">Коррекция фигуры 100 р</p></li>
-                        <li class="list-item"><p class="lead">Коррекция документов 500р</p></li>
-                        <li class="list-item"><p class="lead">Реставрация от 300</p></li>
-                        <li class="list-item"><p class="lead">Цветокоррекция 50</p></li>
-                        <li class="list-item"><p class="lead">При заказе от 10 штук скидка 10%</p></li>
+                <div class="col-md-12">
+                    <ul class="prices">
+                        <li>
+                            <span class="service">Ретушь</span>
+                            <span class="price">200 р</span>
+                        </li>
+                        <li>
+                            <span class="service">Фотомонтаж</span>
+                            <span class="price">200 р</span>
+                        </li>
+                        <li>
+                            <span class="service">Коррекция фигуры</span>
+                            <span class="price">100 р</span>
+                        </li>
+                        <li>
+                            <span class="service">Коррекция документов</span>
+                            <span class="price">500 р</span>
+                        </li>
+                        <li>
+                            <span class="service">Реставрация</span>
+                            <span class="price">от 300 р</span>
+                        </li>
+                        <li>
+                            <span class="service">Цветокоррекция</span>
+                            <span class="price">50 р</span>
+                        </li>
+                        <li>
+                            <span class="service">При заказе от 10 штук</span>
+                            <span class="price">скидка 10%</span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -181,7 +199,7 @@
                         <p>У всех есть старые дорогие сердцу фотографии. И, как и всё лучшее, они имеют свойство рваться, портиться, стареть. Мы поможем Вам привести их порядок, и они еще долго будут греть сердце воспоминаниями.</p>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8 text-right"><img width="512" class="img-responsive shadow hoverable-image img-thumbnail" src="assets/img/prod/11.webp"></div>
+                <div class="col-lg-8 col-md-8 text-right"><img width="360" class="img-responsive shadow hoverable-image img-thumbnail" src="assets/img/prod/11.webp"></div>
             </div>
         </div>
         <div class="container text-center">
@@ -197,7 +215,7 @@
             </div>
         </div>
     </section>
-    <section id="features" class="features blur">
+    <section id="features" class="features">
         <h1 class="text-center title"><strong>Почему именно мы? </strong></h1>
         <div class="container features">
             <div class="row">
@@ -236,42 +254,7 @@
             </div>
         </div>
     </section>
-    <section id="reviews">
-        <h1 class="text-center hidden title"> <strong>Отзывы </strong></h1>
-        <div class="container hidden">
-            <div class="well shadow">
-                <div class="form-group">
-                    <form method="get">
-                        <blockquote>
-                            <p>Радостный отзыв </p>
-                            <footer>автор </footer>
-                        </blockquote>
-                        <blockquote>
-                            <p>Еще радостный отзыв </p>
-                            <footer>автор </footer>
-                        </blockquote>
-                        <blockquote>
-                            <p>Сдержанный отзыв </p>
-                            <footer>автор </footer>
-                        </blockquote>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="well shadow">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div id="vk_like" class="soc_like"></div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="fb-like soc_like" data-href="https://magical-lab.ru/" data-layout="button_count" data-share="true" data-action="like" data-show-faces="true"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contacts" class="blur features">
+    <section id="contacts" class="features">
         <h1 class="text-center title"> <strong>Контакты </strong></h1>
         <div class="container">
             <div class="row">
@@ -301,7 +284,16 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h5><a href="https://vk.com/away.php?to=http%3A%2F%2FMagical-lab.ru" target="_blank">Magical-lab</a> © 2016</h5></div>
-                <div class="col-sm-6 social-icons"><a class="hidden" href="#" target="_blank"><i class="fa fa-facebook"></i></a><a class="hidden" href="#"><i class="fa fa-twitter"></i></a><a class="hidden" href="#"><i class="fa fa-instagram"></i></a></div>
+                <div class="col-sm-6 social-icons">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div id="vk_like" class="soc_like"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="fb-like soc_like" data-href="https://magical-lab.ru/" data-layout="button_count" data-share="true" data-action="like" data-show-faces="true"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

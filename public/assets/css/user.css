@@ -137,11 +137,20 @@ section{
   opacity:0;
 }
 
+
+section#decription{
+  box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+  background: url(../../assets/img/prod/BVJH9mK_2zw.webp) no-repeat center fixed;
+  background-size: cover;
+  color: white;
+}
+
 section#examples{
   position:relative;
   background:url(../../assets/img/prod/powerball.webp) no-repeat center fixed;
   background-size:cover;
   border:none;
+  box-shadow: inset 0px 0px 10px 10px rgb(0, 0, 0);
 }
 
 section#reviews{
@@ -151,7 +160,8 @@ section#reviews{
 }
 
 section.features{
-  background-color:#375a7f;
+  background: url(../../assets/img/prod/BVJH9mK_2zw.webp) no-repeat center fixed;
+  background-size: cover;
   padding:40px 0;
   color:#fff;
 }
@@ -189,10 +199,10 @@ div.container{
   transition-duration:1s;
 }
 
-.neon-text:hover{
-  text-shadow:0 0 1em #1f86e6, 0 0 1em #1f86e6, 0 0 1em #1f86e6;
-  transition-duration:1s;
-}
+/*.neon-text:hover{*/
+  /*text-shadow:0 0 1em #1f86e6, 0 0 1em #1f86e6, 0 0 1em #1f86e6;*/
+  /*transition-duration:1s;*/
+/*}*/
 
 .blink-neon-text{
 }
@@ -215,3 +225,37 @@ img.preshow-icon{
   max-height:1024px;
 }
 
+ul.prices {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul.prices li {
+  border-bottom: 1px dotted #C2C2C2; /* Необязателен. Здесь задается толщина, тип и цвет точек */
+  position: relative;
+  padding: 0;
+  margin-bottom:5px; /* Необязателен. Задается для установки расстояния между блоками li */
+}
+
+ul.prices li span {
+  /*background-color: #FFF; !* Это необходимо, чтобы перекрыть точки фоном *!*/
+  margin: 0;
+  font-size:21px;
+}
+
+ul.prices li span.service, ul.prices li span.price {
+  bottom: -5px; /* Смещаем значимые блоки, чтобы они перекрыли точки */
+}
+
+ul.prices span.service {
+  position :relative;
+  margin-right:7em; /* Задается чтобы текст не заходил на номера страниц */
+  padding-right:2px; /* Необязателен. Задается чтобы точки не подходили вплотную к концу текста */
+}
+
+ul.prices span.price {
+  position: absolute;
+  right: 0;
+  padding-left:2px; /* Необязателен. Задается чтобы точки не подходили вплотную к номерам страниц */
+}

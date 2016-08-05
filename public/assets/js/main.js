@@ -4,7 +4,7 @@
     const modalSuccess = $("#submit-request-success");
     const modalFailure = $("#submit-request-failure");
     const popupCarousel = $('#popup-carousel');
-    
+
     function showCarousel(){
         popupCarousel.modal("show");
         return false;
